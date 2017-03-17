@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="js/script.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <h3>Kodexx UdeA</h3>
+        <h3>Calculadora</h3>
         <div>
-          <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
-            <button onclick="">Submit</button>
-          </form>
+
+            <label for="a">número:</label>
+            <input type="text" id="a" name="nombre" placeholder="Escriba un número">
+
         </div>
+        <input type="text" id="c" name="nombre" placeholder="ingrese una operacion">
     </body>
+    <div>
+
+            <label for="b">número:</label>
+            <input type="text" id="b" name="nombre" placeholder="Escriba un número">
+              <button onclick="calcular()">calcular</button>
+
+    </div>
+    <div>
+        <input type="text" id="res" name="resultado" placeholder="resultado de la operacion">
+    </div>
 </html>
